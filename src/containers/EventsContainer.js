@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { addEvent } from '../actions/eventActions';
+import { getEvents, addEvent } from '../actions/eventActions';
 import EventsForm from '../components/EventsForm';
 import EventsList from '../components/EventsList';
 
@@ -28,6 +28,10 @@ class EventsContainer extends Component {
     })
   }
 
+  componentDidMount() {
+    this.props.getEvents();
+  }
+
   render() {
     return (
       <>
@@ -44,4 +48,4 @@ const mapStateToProps = state => {
   }
 }
 
-export default connect(mapStateToProps, { addEvent })(EventsContainer);
+export default connect(mapStateToProps, { addEvent, getEvents })(EventsContainer);

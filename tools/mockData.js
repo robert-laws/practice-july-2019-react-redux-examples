@@ -67,8 +67,14 @@ const authors = [
   { id: 3, name: "Mel Mope" }
 ];
 
+const events = [
+  { id: 1, eventName: "Annual Gathering", attendees: 20, location: "Denver"},
+  { id: 2, eventName: "Fun Day", attendees: 12, location: "Chicago"}
+]
+
 // Using CommonJS style export so we can consume via Node (without using Babel-node)
 module.exports = {
   books,
-  authors
+  authors,
+  events
 };

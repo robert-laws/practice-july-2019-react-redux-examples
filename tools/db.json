@@ -1,1 +1,106 @@
-{"books":[{"id":1,"title":"New Ideas for Old Places","authorId":1,"publication_date":2017},{"id":2,"title":"Learning How to Paint","authorId":1,"publication_date":2013},{"id":3,"title":"Creating a Exciting Life","authorId":3,"publication_date":1995},{"id":4,"title":"Building Homes for Humans","authorId":2,"publication_date":1989},{"id":5,"title":"Kicking the Ball","authorId":3,"publication_date":2003},{"id":6,"title":"Ocean Waves","authorId":1,"publication_date":2018},{"id":7,"title":"Letting Things Happen","authorId":2,"publication_date":2009},{"id":8,"title":"Arrival at Noon","authorId":3,"publication_date":2016},{"id":9,"title":"Training for Musical Events","authorId":1,"publication_date":1999},{"id":10,"title":"Taking Time to Breath","authorId":2,"publication_date":2002}],"authors":[{"id":1,"name":"Bob Cobb"},{"id":2,"name":"Hal Hope"},{"id":3,"name":"Mel Mope"}]}
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "New Ideas for Old Places",
+      "authorId": 1,
+      "publication_date": 2017
+    },
+    {
+      "id": 2,
+      "title": "Learning How to Paint",
+      "authorId": 1,
+      "publication_date": 2013
+    },
+    {
+      "id": 3,
+      "title": "Creating a Exciting Life",
+      "authorId": 3,
+      "publication_date": 1995
+    },
+    {
+      "id": 4,
+      "title": "Building Homes for Humans",
+      "authorId": 2,
+      "publication_date": 1989
+    },
+    {
+      "id": 5,
+      "title": "Kicking the Ball",
+      "authorId": 3,
+      "publication_date": 2003
+    },
+    {
+      "id": 6,
+      "title": "Ocean Waves",
+      "authorId": 1,
+      "publication_date": 2018
+    },
+    {
+      "id": 7,
+      "title": "Letting Things Happen",
+      "authorId": 2,
+      "publication_date": 2009
+    },
+    {
+      "id": 8,
+      "title": "Arrival at Noon",
+      "authorId": 3,
+      "publication_date": 2016
+    },
+    {
+      "id": 9,
+      "title": "Training for Musical Events",
+      "authorId": 1,
+      "publication_date": 1999
+    },
+    {
+      "id": 10,
+      "title": "Taking Time to Breath",
+      "authorId": 2,
+      "publication_date": 2002
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "Bob Cobb"
+    },
+    {
+      "id": 2,
+      "name": "Hal Hope"
+    },
+    {
+      "id": 3,
+      "name": "Mel Mope"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "eventName": "Annual Gathering",
+      "attendees": 20,
+      "location": "Denver"
+    },
+    {
+      "id": 2,
+      "eventName": "Fun Day",
+      "attendees": 12,
+      "location": "Chicago"
+    },
+    {
+      "eventName": "Race",
+      "attendees": "20",
+      "location": "London",
+      "createdAt": 1563191681272,
+      "id": 3
+    },
+    {
+      "eventName": "Dance Night",
+      "attendees": "36",
+      "location": "Boston",
+      "createdAt": 1563191917272,
+      "id": 4
+    }
+  ]
+}
