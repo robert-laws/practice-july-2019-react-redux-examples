@@ -1,10 +1,10 @@
 import React from 'react';
-import BooksContainer from './containers/BooksContainer';
+import EventsContainer from './containers/EventsContainer';
 
 function App() {
   return (
     <div className="container">
-      <BooksContainer />
+      <EventsContainer />
     </div>
   );
 }
