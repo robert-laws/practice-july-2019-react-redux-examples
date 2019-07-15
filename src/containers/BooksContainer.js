@@ -13,7 +13,9 @@ class BooksContainer extends Component {
   render() {
     return (
       <>
-        <BookList books={this.props.books} authors={this.props.authors} />
+        <div className="row">
+          <BookList books={this.props.books} authors={this.props.authors} />
+        </div>
       </>
     )
   }
