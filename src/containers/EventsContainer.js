@@ -13,7 +13,9 @@ class EventsContainer extends Component {
 
   handleSubmit = event => {
     event.preventDefault();
+
     this.props.addEvent(this.state);
+
     this.setState({
       eventName: '',
       attendees: '',
@@ -35,7 +37,7 @@ class EventsContainer extends Component {
   render() {
     return (
       <>
-        <EventsForm onChange={this.handleChange} onSubmit={this.handleSubmit} />
+        <EventsForm eventName={this.state.eventName} attendees={this.state.attendees} location={this.state.location} onChange={this.handleChange} onSubmit={this.handleSubmit} />
         <EventsList events={this.props.events} />
       </>
     )

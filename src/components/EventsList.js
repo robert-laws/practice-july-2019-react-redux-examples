@@ -1,8 +1,8 @@
 import React from 'react';
 
 const EventsList = ({events}) => {
-  const eventsList = events.map(({eventName, attendees, location}) => (
-    <div className="col s3">
+  const eventsList = events.map(({id, eventName, attendees, location}) => (
+    <div key={id} className="col s3">
       <div className="card-panel teal">
         <p className="white-text">
           <strong>
