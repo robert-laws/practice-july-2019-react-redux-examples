@@ -1,17 +1,23 @@
 import React from 'react';
 
-const BookList = ({books}) => {
-  const booksList = books.map(({id, title, authorId, publication_date}) => (
-    <div key={id}>
-      <h5>{title}</h5>
-      <p>{authorId}</p>
-      <p>{publication_date}</p>
+const BookList = ({books, authors}) => {
+  const booksList = books.map(book => (
+    <div key={book.id} className="card-panel teal">
+      <p className="white-text">
+        <strong>
+          {book.title}
+        </strong>
+      </p>
+      <p className="white-text">{book.authorName}</p>
+      <p className="white-text">{book.publication_date}</p>
     </div>
   ))
 
   return (
-    <div>
-      {booksList}
+    <div className="row">
+      <div className="col s12">
+        {booksList}
+      </div>
     </div>
   )
 }

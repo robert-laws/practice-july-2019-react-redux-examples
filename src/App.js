@@ -3,7 +3,7 @@ import BooksContainer from './containers/BooksContainer';
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <BooksContainer />
     </div>
   );
