@@ -3,7 +3,7 @@ import EventsContainer from './containers/EventsContainer';
 
 function App() {
   return (
-    <div className="container">
+    <div className="container" style={{marginTop: 20}}>
       <EventsContainer />
     </div>
   );

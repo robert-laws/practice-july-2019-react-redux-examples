@@ -89,25 +89,11 @@
       "location": "Chicago"
     },
     {
-      "eventName": "Dance Fest",
-      "attendees": "12",
-      "location": "Houston",
-      "createdAt": 1563193375189,
+      "eventName": "Dance",
+      "attendees": "11",
+      "location": "Boston",
+      "createdAt": 1563202374079,
       "id": 3
-    },
-    {
-      "eventName": "Music Night",
-      "attendees": "22",
-      "location": "Los Angeles",
-      "createdAt": 1563193568107,
-      "id": 4
-    },
-    {
-      "eventName": "House Party",
-      "attendees": "50",
-      "location": "Detroit",
-      "createdAt": 1563193870540,
-      "id": 5
     }
   ]
 }
